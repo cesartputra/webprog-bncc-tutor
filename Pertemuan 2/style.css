@@ -40,7 +40,7 @@
     text-align: center;
     width: 120px;
     padding: 10px 0;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
 }
 
 .nav-links .register{
