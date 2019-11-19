@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FOR NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    height: 8vh;
+    padding: 0 10%;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: lightcoral; */
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: black;
+}
+
+
+
+/* FOR CONTENT */
+.content{
+    min-height: 759px;
+    background-image: url("/netflix.jpg");
+    padding: 0 10%;
+    background-repeat: repeat;
+}
+
+/* FOR FOOTER */
