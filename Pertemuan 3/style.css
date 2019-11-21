@@ -3,50 +3,110 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* FOR NAVBAR */
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
-    align-items: center;
     height: 8vh;
+    background: lightblue;
+    align-items: center;
     padding: 0 10%;
-    width: 100%;
     margin: auto;
-    border: none;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
 }
 
-.navbar a{
+.logo{
     text-decoration: none;
     color: black;
 }
 
+.logo:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.8s;
+}
+
 .nav-links{
     display: flex;
-    justify-content: space-around;
-    /* background-color: lightcoral; */
-    width: 30%;
+    justify-content: space-evenly;
+    width: 40%;
 }
 
 .nav-links li{
     list-style: none;
+    padding: 10px 5px;
+    border: 1px transparent;
+    /* background-color: lightcoral; */
+}
+
+.nav-links .register{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.nav-links .register:hover{
+    border: 1px solid turquoise;
+    background-color: turquoise;
+    transition: 0.5s;
+}
+
+.nav-links .register:hover a:hover{
+    color: red;
 }
 
 .nav-links li a{
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 1000;
     color: black;
+    font-weight: 800;
+    /* background-color: lightcoral; */
 }
 
+.nav-links li a:hover{
+    color: turquoise;
+    transition: 0.5s;
+}
 
 
 /* FOR CONTENT */
 .content{
+    margin: auto;
+    background-image: url("logo.png");
+    padding: 50px 10%;
     min-height: 759px;
-    background-image: url("/netflix.jpg");
-    padding: 0 10%;
-    background-repeat: repeat;
+    z-index: -1;
+    /* background-color: lightcoral; */
+}
+
+.content img{
+    height: 400px;
+    width: 600px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+}
+
+.registerContent{
+    width: 50%;
+    height: 300px;
+    padding: 80px 0;
+    background-color: lightcoral;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /* FOR FOOTER */
+.footer{
+    background: lightblue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer h3{
+    text-transform: uppercase;
+}
