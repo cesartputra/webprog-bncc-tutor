@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOR NAVBAR */
+.navbar{
+    background-color: black !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.n{
+    color: red !important;
+}
+
+.navbar-brand:hover{
+    color: red !important;
+    transition: 0.5s;
+}
+
+.custom-toggler.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: red !important;
+    transition: 0.5s;
+}
+
+/* FOR CONTENT */
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    min-height: 759px;
+}
+
+.signup-content{
+    margin-top: 100px;
+}
+
+/* FOR FOOTER */
