@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #181818;
+}
+
 /* FOR NAVBAR */
 .navbar{
     background-color: black !important;
@@ -51,17 +55,62 @@
     transition: 0.5s;
 }
 
+.nav-link.signup{
+    color: red !important;
+    border: 1.5px solid red;
+    border-radius: 4px;
+}
+
 /* FOR CONTENT */
 
 .content{
     display: flex;
     justify-content: center;
-    margin: 10px auto;
-    min-height: 759px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* min-height: 759px; */
 }
 
-.signup-content{
-    margin-top: 100px;
+p{
+    color: white;
+}
+
+form{
+    color: white;
+}
+
+
+#signUp_btn{
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#signUp_btn:active{
+    background-color: red;
+    color: black;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+}
+
+.card-text{
+    color: black;
 }
 
 /* FOR FOOTER */
+.footer{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 6vh;
+    align-items: center;
+}
